@@ -1,0 +1,77 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url(https://fonts.google.com/specimen/Figtree);
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+    background-color:#f6d050;
+    font-family: 'Figtree';
+}
+
+.external{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform:translateX(-50%);
+    border: 1px solid black;
+    box-shadow: 10px 10px black;
+    width: 300px;
+    height: 450px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+
+.img1{
+  border-radius: 5px;
+}
+
+figcaption{
+  margin-top: 20px;
+}
+
+button{
+  background-color: #f6d050;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.date{
+  margin-block: 10px;
+  font-size: 12px;
+}
+
+.name{
+  font-weight:bolder;
+  font-size: 18px;
+}
+
+.desc{
+  letter-spacing: -1px;
+  color: rgb(86, 83, 83);
+}
+
+footer{
+  position: relative;
+  top: 30px;
+}
+
+.greg{
+  position: relative;
+  bottom: 10px;
+  font-weight: bolder;
+  font-size: 13px;
+}
